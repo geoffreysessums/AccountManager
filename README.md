@@ -10,7 +10,8 @@ AccountManager produces a file of user accounts that have either
 never logged in or have NOT logged in during 2017 on two servers. The script uses
 the output from the lastlog tool for the Fox and Hen servers. Note that users may
 meet the criteria for one server but not the other, so it is necessary to remove
-those user ID's (handled by screen2.sed).
+only those user ID's which meet the criteria for both servers 
+(handled by screen2.sed).
 
 ## What I Learned
 
