@@ -23,7 +23,7 @@ those user ID's which meet the criteria for both servers (handled by screen2.sed
 ## Installation
 
 Clone the repository wherever you like (e.g. `~/Desktop/AccountManager`):  
-<https://github.com/geoffreysessums/AccountManager.git>
+    <https://github.com/geoffreysessums/AccountManager.git>
 
 ## Usage
 
