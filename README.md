@@ -23,13 +23,13 @@ necessary to remove only those user ID's which meet the criteria for both server
 ## Installation
 
 Clone the repository wherever you like (e.g. `~/Desktop/AccountManager`):  
-    <https://github.com/geoffreysessums/AccountManager.git>
+`git clone https://github.com/geoffreysessums/AccountManager.git`
 
 ## Usage
 
 Run Command:
 
-    ./accountManager.bash
+`./accountManager.bash`
 
 ## Testing
 
@@ -42,13 +42,13 @@ Several files are included for testing:
 
 ## Credits
 
-Author: [Geoffrey Sessums](http://www.geoffreysessums.com)
+Author: Geoffrey Sessums
 
 ## License
 
 MIT License
 
-Copyright (c) 2018 Geoffrey Sessums
+Copyright (c) 2017 Geoffrey Sessums
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
