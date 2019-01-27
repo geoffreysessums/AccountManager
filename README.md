@@ -6,12 +6,12 @@ Language: BASH
 
 ## Description
 
-AccountManager produces a file of user accounts that have either
-never logged in or have NOT logged in during 2017 on two servers. The script uses
-the output from the lastlog tool for the Fox and Hen servers. Note that users may
-meet the criteria for one server but not the other, so it is necessary to remove
-only those user ID's which meet the criteria for both servers 
-(handled by screen2.sed).
+AccountManager is a simple BASH script that the uses sed script files to
+identify and remove student accounts that have either NEVER logged in or have
+NOT logged on two university servers during 2017. The script uses the output
+from the lastlog tool for the Fox and Hen servers. Note that users may meet the
+criteria for one server but not the other, so it is necessary to remove only
+those user ID's which meet the criteria for both servers (handled by screen2.sed).
 
 ## What I Learned
 
@@ -22,8 +22,8 @@ only those user ID's which meet the criteria for both servers
 
 ## Installation
 
-Clone the repository wherever you like (e.g. `~/Desktop/AccountManager`):
-    <https://github.com/geoffreysessums/AccountManager.git>
+Clone the repository wherever you like (e.g. `~/Desktop/AccountManager`):  
+<https://github.com/geoffreysessums/AccountManager.git>
 
 ## Usage
 
