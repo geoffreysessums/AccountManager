@@ -1,27 +1,34 @@
 # AccountManager
 
+Geoffrey Sessums  
+CS 3423 Systems Programming - Fall 2017  
+Language: BASH  
+
 ## Description
 
-Written in Bash, AccountManager produces a file of user accounts that have either
+AccountManager produces a file of user accounts that have either
 never logged in or have NOT logged in during 2017 on two servers. The script uses
 the output from the lastlog tool for the Fox and Hen servers. Note that users may
 meet the criteria for one server but not the other, so it is necessary to remove
 those user ID's (handled by screen2.sed).
 
+## What I Learned
+
+* How to use the standard Unix utility sed to target specific lines within a file
+  and perform repetitive edits to multiple files.
+* How to create a sed script file to allow complex pattern matching capabilities.
+* How to use a simple BASH script to execute sed script files.
+
 ## Installation
 
-Clone the repository wherever you like (e.g. `~/Projects/AccountManager`):
-
-```bash
-
-git clone https://github.com/gsessums/AccountManager.git
-```
+Clone the repository wherever you like (e.g. `~/Desktop/AccountManager`):
+    <https://github.com/geoffreysessums/AccountManager.git>
 
 ## Usage
 
-```bash
-./accountManager.bash
-```
+Run Command:
+
+    ./accountManager.bash
 
 ## Testing
 
